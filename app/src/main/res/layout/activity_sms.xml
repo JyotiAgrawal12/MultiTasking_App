@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sms"
+    android:background="@drawable/smsi"
+    >
+
+    <EditText
+        android:id="@+id/editTextp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="97dp"
+        android:ems="10"
+        android:hint="Enter the phone number"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <EditText
+        android:id="@+id/editTextq"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="189dp"
+        android:ems="10"
+        android:hint="Enter the message"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="134dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp"
+        android:background="@drawable/btn_sms"
+        android:text="SEND"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="497dp" />
+</RelativeLayout>

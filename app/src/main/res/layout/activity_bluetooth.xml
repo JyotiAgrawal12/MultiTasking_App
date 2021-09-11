@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".Bluetooth">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="512dp"
+        android:background="@drawable/btn_blue"
+        android:text="BLUETOOTH OFF"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="541dp"
+        android:background="@drawable/btn_blue"
+        android:text="BLUETOOTH ON"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="212dp"
+        android:layout_height="205dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        app:srcCompat="@drawable/bluetooth" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginBottom="67dp"
+        android:text="BACK" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="69dp"
+        android:text="LOGOUT" />
+</RelativeLayout>
